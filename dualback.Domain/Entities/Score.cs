@@ -20,6 +20,7 @@ namespace dualback.Domain.Entities
         public int          s_DetectedVideoWrong { get; set; }
         public int          s_Percent { get; set; }
         public DateTime     s_Timestamp { get; set; }
+        public string       s_Comment { get; set; }
 
 
 

@@ -249,6 +249,25 @@ function arrayMatchEndings() {
 function setupData() {
     sizeStep = parseInt($('[id="inputLevel"]').val());
 
+    /*
+    //clear global variables
+    nrDetectedAudio = 0;
+    nrDetectedAudioWrong = 0;
+    nrDetectedVideo = 0;
+    nrDetectedVideoWrong = 0;
+    lstIndexMatchGlobal = [];
+    lstMatchesAudio = [];
+    lstMatchesVideo = [];
+    lstPositionsAudio = [];
+    lstPositionsVideo = [];
+    notStopped = true;
+    currentStep = 0;
+    htmlTimpi = "";
+    duplicateStreak = false;
+    duplicateLastPlayedAudio = 0;
+    previousAudioNr = null;
+    */
+
     lstPositionsAudio = generateArray();
     lstMatchesAudio = arrayMatchEndings();
 
