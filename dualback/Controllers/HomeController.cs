@@ -61,5 +61,11 @@ namespace dualback.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        public ActionResult Results()
+        {
+            List<Score> lstLastScores = repositoryScore.Scores.ToList();
+
+            return View(lstLastScores);
+        }
     }
 }
